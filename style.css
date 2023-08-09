@@ -1,0 +1,220 @@
+
+/*estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:blueviolet;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color:blueviolet;
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px rgba(123, 4, 167, 0.53);
+    transform: scale(1.05);
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+}
+
+/* estilo do cabecario*/
+
+header {
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header a {
+    color: #7d7d7d;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+
+/*estilo do topo do site*/
+
+section.topo-do-site {
+    padding: 40px 4%;
+    position: relative;
+    top: 20px;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 38px;
+    line-height: 40px;
+    
+}
+
+.topo-do-site h1 span {
+    color: blueviolet;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+
+/*SEGUNDA PAGINA*/
+
+section.segundo-do-site {
+    padding: 120px 4%;
+}
+
+section.segundo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+section.segundo-do-site .image{
+    border: 3px #fff solid;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+
+section.segundo-do-site h2 {
+    color: #fff;
+    text-align: center;
+    margin: 120px 0;
+    
+}
+
+section.segundo-do-site h2 span {
+    color: blueviolet;
+}
+
+section.segundo-do-site .foto{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    border-radius: 40px;
+
+}
+
+section.segundo-do-site button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    margin: auto;
+    color: #fff;
+    line-height: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    width: 300px;
+
+}
+
+section.segundo-do-site  a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+section.segundo-do-site i {
+    color: #fff;
+    font-size: 40px;
+    padding: 0 10px;
+    list-style-type: none;
+    
+}
+
+
+
+
