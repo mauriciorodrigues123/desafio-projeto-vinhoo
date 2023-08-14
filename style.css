@@ -170,6 +170,14 @@ section.segundo-do-site h2 {
     
 }
 
+section.segundo-do-site P {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+
 section.segundo-do-site h2 span {
     color: blueviolet;
 }
@@ -214,7 +222,6 @@ section.segundo-do-site i {
     list-style-type: none;
     
 }
-
 
 
 
